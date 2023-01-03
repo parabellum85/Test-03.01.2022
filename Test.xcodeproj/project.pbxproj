@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5479741229644368003751CE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479741129644368003751CE /* main.swift */; };
+		54797419296444E8003751CE /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54797418296444E8003751CE /* Animal.swift */; };
+		5479741D29644798003751CE /* Сarnivores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479741C29644798003751CE /* Сarnivores.swift */; };
+		5479741F296447FC003751CE /* Predatory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479741E296447FC003751CE /* Predatory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		5479740E29644368003751CE /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		5479741129644368003751CE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		54797418296444E8003751CE /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		5479741C29644798003751CE /* Сarnivores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Сarnivores.swift"; sourceTree = "<group>"; };
+		5479741E296447FC003751CE /* Predatory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predatory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				5479741129644368003751CE /* main.swift */,
+				5479741E296447FC003751CE /* Predatory.swift */,
+				5479741C29644798003751CE /* Сarnivores.swift */,
+				54797418296444E8003751CE /* Animal.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5479741F296447FC003751CE /* Predatory.swift in Sources */,
 				5479741229644368003751CE /* main.swift in Sources */,
+				5479741D29644798003751CE /* Сarnivores.swift in Sources */,
+				54797419296444E8003751CE /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
